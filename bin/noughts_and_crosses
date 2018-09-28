@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require "noughts_and_crosses"
+
+welcome = NoughtsAndCrosses::Welcome.new
+
+welcome.play?
